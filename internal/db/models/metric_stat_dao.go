@@ -2,9 +2,12 @@ package models
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAPI/internal/goman"
-	"github.com/TeaOSLab/EdgeAPI/internal/remotelogs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
+	"sort"
+	"strconv"
+	"sync"
+	"sync/atomic"
+	"time"
+
 	"github.com/go-sql-driver/mysql"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/Tea"
@@ -14,11 +17,9 @@ import (
 	"github.com/iwind/TeaGo/rands"
 	"github.com/iwind/TeaGo/types"
 	timeutil "github.com/iwind/TeaGo/utils/time"
-	"sort"
-	"strconv"
-	"sync"
-	"sync/atomic"
-	"time"
+	"github.com/oy1978/EdgeAPI/internal/goman"
+	"github.com/oy1978/EdgeAPI/internal/remotelogs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
 )
 
 type MetricStatDAO dbs.DAO

@@ -1,10 +1,10 @@
 package services
 
 import (
-	rpcutils "github.com/TeaOSLab/EdgeAPI/internal/rpc/utils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/logs"
+	rpcutils "github.com/oy1978/EdgeAPI/internal/rpc/utils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 	"testing"
 )
 

@@ -4,14 +4,15 @@ package dnsutils
 
 import (
 	"fmt"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models/dns"
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients"
-	"github.com/TeaOSLab/EdgeAPI/internal/errors"
-	"github.com/TeaOSLab/EdgeAPI/internal/utils/numberutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+
 	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
+	"github.com/oy1978/EdgeAPI/internal/db/models/dns"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients"
+	"github.com/oy1978/EdgeAPI/internal/errors"
+	"github.com/oy1978/EdgeAPI/internal/utils/numberutils"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 // CheckClusterDNS 检查集群的DNS问题

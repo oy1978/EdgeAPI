@@ -2,22 +2,23 @@ package setup
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAPI/internal/acme"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models/stats"
-	"github.com/TeaOSLab/EdgeAPI/internal/errors"
-	"github.com/TeaOSLab/EdgeAPI/internal/utils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/firewallconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
-	"github.com/TeaOSLab/EdgeCommon/pkg/systemconfigs"
+	"strings"
+
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/maps"
 	"github.com/iwind/TeaGo/rands"
 	"github.com/iwind/TeaGo/types"
 	stringutil "github.com/iwind/TeaGo/utils/string"
-	"strings"
+	"github.com/oy1978/EdgeAPI/internal/acme"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
+	"github.com/oy1978/EdgeAPI/internal/db/models/stats"
+	"github.com/oy1978/EdgeAPI/internal/errors"
+	"github.com/oy1978/EdgeAPI/internal/utils"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/firewallconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
+	"github.com/oy1978/EdgeCommon/pkg/systemconfigs"
 )
 
 type upgradeVersion struct {

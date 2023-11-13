@@ -2,11 +2,12 @@ package models
 
 import (
 	"errors"
-	dbutils "github.com/TeaOSLab/EdgeAPI/internal/db/utils"
+
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/types"
+	dbutils "github.com/oy1978/EdgeAPI/internal/db/utils"
 )
 
 const (

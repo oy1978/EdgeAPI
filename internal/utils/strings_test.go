@@ -3,9 +3,10 @@
 package utils_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/utils"
-	"github.com/iwind/TeaGo/assert"
 	"testing"
+
+	"github.com/iwind/TeaGo/assert"
+	"github.com/oy1978/EdgeAPI/internal/utils"
 )
 
 func TestSplitStrings(t *testing.T) {
@@ -40,7 +41,6 @@ func TestLimitString(t *testing.T) {
 	a.IsTrue(utils.LimitString("中文测试", 1) == "")
 	a.IsTrue(utils.LimitString("中文测试", 3) == "中")
 }
-
 
 func TestSplitKeywordArgs(t *testing.T) {
 	{

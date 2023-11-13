@@ -1,11 +1,12 @@
 package models
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/iwind/TeaGo/dbs"
 	"testing"
 	"time"
+
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
 )
 
 func TestMessageDAO_CreateClusterMessage(t *testing.T) {

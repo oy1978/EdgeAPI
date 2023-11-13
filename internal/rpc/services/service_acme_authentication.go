@@ -2,9 +2,9 @@ package services
 
 import (
 	"context"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models/acme"
-	"github.com/TeaOSLab/EdgeAPI/internal/errors"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeAPI/internal/db/models/acme"
+	"github.com/oy1978/EdgeAPI/internal/errors"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 // ACME认证相关

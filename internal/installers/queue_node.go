@@ -3,12 +3,12 @@ package installers
 import (
 	"errors"
 	"fmt"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
-	"github.com/TeaOSLab/EdgeAPI/internal/goman"
-	"github.com/TeaOSLab/EdgeAPI/internal/utils"
-	"github.com/TeaOSLab/EdgeAPI/internal/utils/numberutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
 	"github.com/iwind/TeaGo/logs"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
+	"github.com/oy1978/EdgeAPI/internal/goman"
+	"github.com/oy1978/EdgeAPI/internal/utils"
+	"github.com/oy1978/EdgeAPI/internal/utils/numberutils"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
 	"time"
 )
 

@@ -3,8 +3,8 @@
 package dbutils_test
 
 import (
-	dbutils "github.com/TeaOSLab/EdgeAPI/internal/db/utils"
 	_ "github.com/iwind/TeaGo/bootstrap"
+	dbutils "github.com/oy1978/EdgeAPI/internal/db/utils"
 	"testing"
 )
 

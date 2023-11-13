@@ -4,8 +4,8 @@ package services
 
 import (
 	"context"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models/stats"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeAPI/internal/db/models/stats"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 // ServerDomainHourlyStatService 服务域名按小时统计服务

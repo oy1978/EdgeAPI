@@ -1,9 +1,10 @@
 package utils
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/goman"
-	"github.com/iwind/TeaGo/types"
 	"time"
+
+	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeAPI/internal/goman"
 )
 
 var unixTime = time.Now().Unix()

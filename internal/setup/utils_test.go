@@ -3,8 +3,9 @@
 package setup_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/setup"
 	"testing"
+
+	"github.com/oy1978/EdgeAPI/internal/setup"
 )
 
 func TestComposeSQLVersion(t *testing.T) {

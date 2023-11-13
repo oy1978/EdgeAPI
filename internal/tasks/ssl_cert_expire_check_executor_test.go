@@ -1,11 +1,12 @@
 package tasks_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/tasks"
-	"github.com/iwind/TeaGo/dbs"
-	timeutil "github.com/iwind/TeaGo/utils/time"
 	"testing"
 	"time"
+
+	"github.com/iwind/TeaGo/dbs"
+	timeutil "github.com/iwind/TeaGo/utils/time"
+	"github.com/oy1978/EdgeAPI/internal/tasks"
 )
 
 func TestSSLCertExpireCheckExecutor_loop(t *testing.T) {

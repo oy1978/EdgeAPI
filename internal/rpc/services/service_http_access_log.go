@@ -2,13 +2,13 @@ package services
 
 import (
 	"context"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
-	"github.com/TeaOSLab/EdgeAPI/internal/errors"
-	rpcutils "github.com/TeaOSLab/EdgeAPI/internal/rpc/utils"
-	"github.com/TeaOSLab/EdgeAPI/internal/utils/regexputils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/lists"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
+	"github.com/oy1978/EdgeAPI/internal/errors"
+	rpcutils "github.com/oy1978/EdgeAPI/internal/rpc/utils"
+	"github.com/oy1978/EdgeAPI/internal/utils/regexputils"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 	"sync"
 )
 

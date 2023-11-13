@@ -4,16 +4,17 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models/regions"
-	"github.com/TeaOSLab/EdgeAPI/internal/utils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/iplibrary"
+	"io"
+	"os"
+	"time"
+
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/types"
-	"io"
-	"os"
-	"time"
+	"github.com/oy1978/EdgeAPI/internal/db/models/regions"
+	"github.com/oy1978/EdgeAPI/internal/utils"
+	"github.com/oy1978/EdgeCommon/pkg/iplibrary"
 )
 
 const (

@@ -2,13 +2,14 @@ package utils
 
 import (
 	"fmt"
-	"github.com/TeaOSLab/EdgeAPI/internal/errors"
-	"github.com/TeaOSLab/EdgeAPI/internal/utils/regexputils"
+	"regexp"
+	"time"
+
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/types"
 	timeutil "github.com/iwind/TeaGo/utils/time"
-	"regexp"
-	"time"
+	"github.com/oy1978/EdgeAPI/internal/errors"
+	"github.com/oy1978/EdgeAPI/internal/utils/regexputils"
 )
 
 // 分钟时间点

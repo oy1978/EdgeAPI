@@ -2,10 +2,10 @@ package services
 
 import (
 	"context"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models/regions"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models/stats"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
+	"github.com/oy1978/EdgeAPI/internal/db/models/regions"
+	"github.com/oy1978/EdgeAPI/internal/db/models/stats"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 // 运营商月份统计

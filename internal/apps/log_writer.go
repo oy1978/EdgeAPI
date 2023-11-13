@@ -1,11 +1,11 @@
 package apps
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/goman"
-	"github.com/TeaOSLab/EdgeAPI/internal/utils/sizes"
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/files"
 	timeutil "github.com/iwind/TeaGo/utils/time"
+	"github.com/oy1978/EdgeAPI/internal/goman"
+	"github.com/oy1978/EdgeAPI/internal/utils/sizes"
 	"log"
 	"os"
 	"runtime"

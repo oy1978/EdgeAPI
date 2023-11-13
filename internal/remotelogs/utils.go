@@ -1,15 +1,16 @@
 package remotelogs
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/configs"
-	teaconst "github.com/TeaOSLab/EdgeAPI/internal/const"
-	"github.com/TeaOSLab/EdgeAPI/internal/goman"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"time"
+
 	"github.com/cespare/xxhash"
 	"github.com/iwind/TeaGo/logs"
 	"github.com/iwind/TeaGo/types"
-	"time"
+	"github.com/oy1978/EdgeAPI/internal/configs"
+	teaconst "github.com/oy1978/EdgeAPI/internal/const"
+	"github.com/oy1978/EdgeAPI/internal/goman"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 var logChan = make(chan *pb.NodeLog, 64) // 队列数量不需要太长，因为日志通常仅仅为调试用

@@ -5,13 +5,14 @@ package utils
 
 import (
 	"errors"
-	teaconst "github.com/TeaOSLab/EdgeAPI/internal/const"
-	executils "github.com/TeaOSLab/EdgeAPI/internal/utils/exec"
-	"github.com/iwind/TeaGo/Tea"
-	"github.com/iwind/TeaGo/files"
 	"os"
 	"os/exec"
 	"regexp"
+
+	"github.com/iwind/TeaGo/Tea"
+	"github.com/iwind/TeaGo/files"
+	teaconst "github.com/oy1978/EdgeAPI/internal/const"
+	executils "github.com/oy1978/EdgeAPI/internal/utils/exec"
 )
 
 var systemdServiceFile = "/etc/systemd/system/edge-api.service"

@@ -1,11 +1,12 @@
 package models
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/utils"
-	_ "github.com/go-sql-driver/mysql"
-	"github.com/iwind/TeaGo/dbs"
 	"runtime"
 	"testing"
+
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeAPI/internal/utils"
 )
 
 func TestAPINodeDAO_FindEnabledAPINodeIdWithAddr(t *testing.T) {

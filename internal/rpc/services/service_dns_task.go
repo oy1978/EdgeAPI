@@ -3,9 +3,9 @@ package services
 import (
 	"context"
 	"fmt"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models/dns"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
+	"github.com/oy1978/EdgeAPI/internal/db/models/dns"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 // DNSTaskService DNS同步相关任务
@@ -119,7 +119,7 @@ func (this *DNSTaskService) DeleteDNSTask(ctx context.Context, req *pb.DeleteDNS
 }
 
 // DeleteAllDNSTasks 删除所有同步任务
-func (this *DNSTaskService)  DeleteAllDNSTasks(ctx context.Context, req *pb.DeleteAllDNSTasksRequest)  (*pb.RPCSuccess, error) {
+func (this *DNSTaskService) DeleteAllDNSTasks(ctx context.Context, req *pb.DeleteAllDNSTasksRequest) (*pb.RPCSuccess, error) {
 	_, err := this.ValidateAdmin(ctx)
 	if err != nil {
 		return nil, err

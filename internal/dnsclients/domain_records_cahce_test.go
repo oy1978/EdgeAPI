@@ -3,10 +3,11 @@
 package dnsclients_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients"
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients/dnstypes"
-	"github.com/iwind/TeaGo/dbs"
 	"testing"
+
+	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients/dnstypes"
 )
 
 func TestDomainRecordsCache_WriteDomainRecords(t *testing.T) {

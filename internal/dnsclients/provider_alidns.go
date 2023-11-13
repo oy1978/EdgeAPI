@@ -2,13 +2,14 @@ package dnsclients
 
 import (
 	"errors"
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients/dnstypes"
+	"strings"
+
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/alidns"
 	"github.com/iwind/TeaGo/maps"
 	"github.com/iwind/TeaGo/types"
-	"strings"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients/dnstypes"
 )
 
 // AliDNSProvider 阿里云服务商

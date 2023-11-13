@@ -1,11 +1,11 @@
 package models
 
 import (
-	teaconst "github.com/TeaOSLab/EdgeAPI/internal/const"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/dbs"
 	timeutil "github.com/iwind/TeaGo/utils/time"
+	teaconst "github.com/oy1978/EdgeAPI/internal/const"
 )
 
 type APIMethodStatDAO dbs.DAO

@@ -3,8 +3,8 @@
 package remotelogs
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
 	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
 )
 
 type DAOInterface interface {

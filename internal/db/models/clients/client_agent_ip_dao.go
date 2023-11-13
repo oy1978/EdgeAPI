@@ -1,10 +1,10 @@
 package clients
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
 )
 
 // TODO 需要定时对所有IP的PTR进行检查，剔除已经变更的IP

@@ -4,9 +4,10 @@ package utils_test
 
 import (
 	"errors"
-	"github.com/TeaOSLab/EdgeAPI/internal/utils"
-	"github.com/iwind/TeaGo/logs"
 	"testing"
+
+	"github.com/iwind/TeaGo/logs"
+	"github.com/oy1978/EdgeAPI/internal/utils"
 )
 
 func TestJSONClone(t *testing.T) {

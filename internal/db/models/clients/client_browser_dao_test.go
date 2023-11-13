@@ -1,9 +1,10 @@
 package clients_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models/clients"
-	_ "github.com/go-sql-driver/mysql"
 	"testing"
+
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/oy1978/EdgeAPI/internal/db/models/clients"
 )
 
 func TestClientBrowserDAO_CreateBrowser(t *testing.T) {

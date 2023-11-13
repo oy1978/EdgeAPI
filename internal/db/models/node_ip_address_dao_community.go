@@ -5,8 +5,8 @@
 package models
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
 	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
 )
 
 // FireThresholds 触发阈值

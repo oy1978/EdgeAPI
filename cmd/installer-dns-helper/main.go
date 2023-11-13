@@ -2,10 +2,11 @@ package main
 
 import (
 	"flag"
-	"github.com/TeaOSLab/EdgeAPI/internal/installers/helpers"
-	"github.com/iwind/gosock/pkg/gosock"
 	"os"
 	"os/exec"
+
+	"github.com/iwind/gosock/pkg/gosock"
+	"github.com/oy1978/EdgeAPI/internal/installers/helpers"
 )
 
 func main() {

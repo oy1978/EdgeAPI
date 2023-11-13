@@ -6,14 +6,15 @@ import (
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
-	teaconst "github.com/TeaOSLab/EdgeAPI/internal/const"
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients/dnstypes"
-	"github.com/TeaOSLab/EdgeAPI/internal/errors"
-	"github.com/iwind/TeaGo/maps"
 	"io"
 	"net/http"
 	"strconv"
 	"time"
+
+	"github.com/iwind/TeaGo/maps"
+	teaconst "github.com/oy1978/EdgeAPI/internal/const"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients/dnstypes"
+	"github.com/oy1978/EdgeAPI/internal/errors"
 )
 
 var customHTTPClient = &http.Client{

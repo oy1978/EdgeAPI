@@ -3,8 +3,8 @@
 package services
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/utils"
 	"github.com/iwind/TeaGo/assert"
+	"github.com/oy1978/EdgeAPI/internal/utils"
 	"testing"
 )
 

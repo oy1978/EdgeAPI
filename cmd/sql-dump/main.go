@@ -3,12 +3,13 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/TeaOSLab/EdgeAPI/internal/setup"
+	"os"
+	"path/filepath"
+
 	"github.com/iwind/TeaGo/Tea"
 	_ "github.com/iwind/TeaGo/bootstrap"
 	"github.com/iwind/TeaGo/dbs"
-	"os"
-	"path/filepath"
+	"github.com/oy1978/EdgeAPI/internal/setup"
 )
 
 func main() {

@@ -5,8 +5,9 @@ package models
 
 import (
 	"errors"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
+
 	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs"
 )
 
 // CopyServerConfigToServers 拷贝服务配置到一组服务

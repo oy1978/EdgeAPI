@@ -3,9 +3,10 @@
 package utils_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/utils"
-	"github.com/iwind/TeaGo/types"
 	"testing"
+
+	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeAPI/internal/utils"
 )
 
 func TestSha1Random(t *testing.T) {

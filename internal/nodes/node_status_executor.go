@@ -2,19 +2,20 @@ package nodes
 
 import (
 	"encoding/json"
-	teaconst "github.com/TeaOSLab/EdgeAPI/internal/const"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
-	"github.com/TeaOSLab/EdgeAPI/internal/events"
-	"github.com/TeaOSLab/EdgeAPI/internal/remotelogs"
-	"github.com/TeaOSLab/EdgeAPI/internal/utils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/iwind/TeaGo/lists"
-	"github.com/shirou/gopsutil/v3/cpu"
-	"github.com/shirou/gopsutil/v3/disk"
 	"os"
 	"runtime"
 	"strings"
 	"time"
+
+	"github.com/iwind/TeaGo/lists"
+	teaconst "github.com/oy1978/EdgeAPI/internal/const"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
+	"github.com/oy1978/EdgeAPI/internal/events"
+	"github.com/oy1978/EdgeAPI/internal/remotelogs"
+	"github.com/oy1978/EdgeAPI/internal/utils"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
+	"github.com/shirou/gopsutil/v3/cpu"
+	"github.com/shirou/gopsutil/v3/disk"
 )
 
 type NodeStatusExecutor struct {

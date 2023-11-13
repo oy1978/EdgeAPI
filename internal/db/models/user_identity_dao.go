@@ -2,11 +2,12 @@ package models
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeCommon/pkg/userconfigs"
+	"time"
+
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/dbs"
-	"time"
+	"github.com/oy1978/EdgeCommon/pkg/userconfigs"
 )
 
 const (

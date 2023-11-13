@@ -3,8 +3,8 @@
 package dbutils_test
 
 import (
-	dbutils "github.com/TeaOSLab/EdgeAPI/internal/db/utils"
 	"github.com/iwind/TeaGo/assert"
+	dbutils "github.com/oy1978/EdgeAPI/internal/db/utils"
 	"testing"
 )
 

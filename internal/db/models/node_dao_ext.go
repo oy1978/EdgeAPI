@@ -5,10 +5,10 @@
 package models
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/utils"
-	"github.com/TeaOSLab/EdgeAPI/internal/zero"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
 	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeAPI/internal/utils"
+	"github.com/oy1978/EdgeAPI/internal/zero"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
 )
 
 func (this *NodeDAO) loadServersFromCluster(tx *dbs.Tx, clusterId int64, serverIdMap map[int64]zero.Zero) ([]*Server, error) {

@@ -3,9 +3,10 @@
 package numberutils_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/utils/numberutils"
 	"math"
 	"testing"
+
+	"github.com/oy1978/EdgeAPI/internal/utils/numberutils"
 )
 
 func TestMax(t *testing.T) {

@@ -6,9 +6,9 @@ package users
 import (
 	"context"
 	"errors"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
 	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 // FindUserPriceInfo 读取用户计费信息

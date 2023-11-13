@@ -2,13 +2,14 @@ package models
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"testing"
+	"time"
+
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/iwind/TeaGo/bootstrap"
 	"github.com/iwind/TeaGo/dbs"
 	timeutil "github.com/iwind/TeaGo/utils/time"
-	"testing"
-	"time"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 func TestCreateHTTPAccessLog(t *testing.T) {

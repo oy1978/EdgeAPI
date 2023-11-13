@@ -1,10 +1,11 @@
 package dnsclients
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients/dnstypes"
+	"testing"
+
 	"github.com/iwind/TeaGo/logs"
 	"github.com/iwind/TeaGo/maps"
-	"testing"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients/dnstypes"
 )
 
 func TestCustomHTTPProvider_GetDomains(t *testing.T) {

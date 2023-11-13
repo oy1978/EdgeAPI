@@ -1,6 +1,6 @@
 package acme
 
-import "github.com/TeaOSLab/EdgeAPI/internal/dnsclients"
+import "github.com/oy1978/EdgeAPI/internal/dnsclients"
 
 type AuthType = string
 

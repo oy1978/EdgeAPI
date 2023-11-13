@@ -3,9 +3,10 @@
 package maputils_test
 
 import (
-	maputils "github.com/TeaOSLab/EdgeAPI/internal/utils/maps"
-	"github.com/iwind/TeaGo/assert"
 	"testing"
+
+	"github.com/iwind/TeaGo/assert"
+	maputils "github.com/oy1978/EdgeAPI/internal/utils/maps"
 )
 
 func TestNewFixedMap(t *testing.T) {

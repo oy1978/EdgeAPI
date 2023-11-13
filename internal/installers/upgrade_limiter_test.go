@@ -3,9 +3,9 @@
 package installers_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/installers"
-	"github.com/TeaOSLab/EdgeAPI/internal/utils/sizes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
+	"github.com/oy1978/EdgeAPI/internal/installers"
+	"github.com/oy1978/EdgeAPI/internal/utils/sizes"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
 	"testing"
 	"time"
 )

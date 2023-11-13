@@ -3,8 +3,9 @@
 package setup
 
 import (
-	teaconst "github.com/TeaOSLab/EdgeAPI/internal/const"
 	"strings"
+
+	teaconst "github.com/oy1978/EdgeAPI/internal/const"
 )
 
 func ComposeSQLVersion() string {

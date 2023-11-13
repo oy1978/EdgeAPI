@@ -3,11 +3,12 @@
 package utils
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/remotelogs"
-	executils "github.com/TeaOSLab/EdgeAPI/internal/utils/exec"
-	"github.com/iwind/TeaGo/types"
 	"os/exec"
 	"runtime"
+
+	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeAPI/internal/remotelogs"
+	executils "github.com/oy1978/EdgeAPI/internal/utils/exec"
 )
 
 func AddPortsToFirewall(ports []int) {

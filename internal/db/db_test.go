@@ -3,11 +3,11 @@ package db
 import (
 	"database/sql"
 	"database/sql/driver"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/Tea"
 	_ "github.com/iwind/TeaGo/bootstrap"
 	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
 	"testing"
 	"time"
 )

@@ -2,8 +2,9 @@ package regions
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAPI/internal/remotelogs"
+
 	"github.com/iwind/TeaGo/lists"
+	"github.com/oy1978/EdgeAPI/internal/remotelogs"
 )
 
 func (this *RegionCountry) DecodeCodes() []string {

@@ -4,8 +4,8 @@
 package models
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
 	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
 )
 
 // CreateMessageTasks 从集群、节点或者服务中创建任务

@@ -1,12 +1,12 @@
 package dbutils
 
 import (
-	executils "github.com/TeaOSLab/EdgeAPI/internal/utils/exec"
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/logs"
 	"github.com/iwind/TeaGo/types"
+	executils "github.com/oy1978/EdgeAPI/internal/utils/exec"
 	"net"
 	"os"
 	"os/exec"
@@ -200,7 +200,7 @@ func StartLocalMySQL() {
 			mysqldSafeFiles = append(mysqldSafeFiles, path)
 		}
 	}
-	
+
 	for _, mysqldSafeFile := range mysqldSafeFiles {
 		_, err := os.Stat(mysqldSafeFile)
 		if err == nil {

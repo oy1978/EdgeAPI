@@ -3,9 +3,10 @@
 package executils_test
 
 import (
-	executils "github.com/TeaOSLab/EdgeAPI/internal/utils/exec"
 	"testing"
 	"time"
+
+	executils "github.com/oy1978/EdgeAPI/internal/utils/exec"
 )
 
 func TestNewTimeoutCmd_Sleep(t *testing.T) {

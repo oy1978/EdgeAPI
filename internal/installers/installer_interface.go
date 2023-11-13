@@ -1,6 +1,6 @@
 package installers
 
-import "github.com/TeaOSLab/EdgeAPI/internal/db/models"
+import "github.com/oy1978/EdgeAPI/internal/db/models"
 
 type InstallerInterface interface {
 	// 登录SSH服务

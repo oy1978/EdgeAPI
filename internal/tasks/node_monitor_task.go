@@ -1,14 +1,15 @@
 package tasks
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
-	"github.com/TeaOSLab/EdgeAPI/internal/goman"
-	"github.com/TeaOSLab/EdgeAPI/internal/installers"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/iwind/TeaGo/dbs"
-	"github.com/iwind/TeaGo/types"
 	"strings"
 	"time"
+
+	"github.com/iwind/TeaGo/dbs"
+	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
+	"github.com/oy1978/EdgeAPI/internal/goman"
+	"github.com/oy1978/EdgeAPI/internal/installers"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
 )
 
 func init() {

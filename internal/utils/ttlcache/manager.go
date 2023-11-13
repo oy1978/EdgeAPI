@@ -3,10 +3,11 @@
 package ttlcache
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/goman"
-	"github.com/TeaOSLab/EdgeAPI/internal/zero"
 	"sync"
 	"time"
+
+	"github.com/oy1978/EdgeAPI/internal/goman"
+	"github.com/oy1978/EdgeAPI/internal/zero"
 )
 
 var SharedManager = NewManager()

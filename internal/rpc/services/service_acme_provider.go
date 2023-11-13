@@ -4,8 +4,8 @@ package services
 
 import (
 	"context"
-	"github.com/TeaOSLab/EdgeAPI/internal/acme"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"github.com/oy1978/EdgeAPI/internal/acme"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 )
 
 // ACMEProviderService ACME服务商

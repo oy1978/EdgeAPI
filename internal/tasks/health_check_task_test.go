@@ -3,9 +3,10 @@
 package tasks_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/tasks"
 	"testing"
 	"time"
+
+	"github.com/oy1978/EdgeAPI/internal/tasks"
 )
 
 func TestNewHealthCheckTask(t *testing.T) {

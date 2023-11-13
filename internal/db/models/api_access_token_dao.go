@@ -1,11 +1,11 @@
 package models
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/errors"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/Tea"
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/rands"
+	"github.com/oy1978/EdgeAPI/internal/errors"
 	"time"
 )
 

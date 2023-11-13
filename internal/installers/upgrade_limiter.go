@@ -3,9 +3,9 @@
 package installers
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/utils/sizes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
 	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeAPI/internal/utils/sizes"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
 	"sync"
 	"time"
 )

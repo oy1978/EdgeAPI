@@ -5,9 +5,9 @@ package services
 import (
 	"context"
 	"fmt"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models/stats"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
 	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeAPI/internal/db/models/stats"
+	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 	"regexp"
 )
 

@@ -9,11 +9,6 @@ import (
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients/dnstypes"
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients/huaweidns"
-	"github.com/TeaOSLab/EdgeAPI/internal/errors"
-	"github.com/iwind/TeaGo/maps"
-	"github.com/iwind/TeaGo/types"
 	"io"
 	"net/http"
 	"net/url"
@@ -22,6 +17,12 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/iwind/TeaGo/maps"
+	"github.com/iwind/TeaGo/types"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients/dnstypes"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients/huaweidns"
+	"github.com/oy1978/EdgeAPI/internal/errors"
 )
 
 // HuaweiDNSDefaultEndpoint 默认Endpoint

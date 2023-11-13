@@ -1,11 +1,11 @@
-module github.com/TeaOSLab/EdgeAPI
+module github.com/oy1978/EdgeAPI
 
 go 1.18
 
-replace github.com/TeaOSLab/EdgeCommon => ../EdgeCommon
+replace github.com/oy1978/EdgeCommon => ../EdgeCommon
 
 require (
-	github.com/TeaOSLab/EdgeCommon v0.0.0-00010101000000-000000000000
+	github.com/oy1978/EdgeCommon v0.0.0-00010101000000-000000000000
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1755
 	github.com/andybalholm/brotli v1.0.4
 	github.com/cespare/xxhash v1.1.0

@@ -1,9 +1,10 @@
 package utils_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/utils"
 	"testing"
 	"time"
+
+	"github.com/oy1978/EdgeAPI/internal/utils"
 )
 
 func TestRangeDays(t *testing.T) {

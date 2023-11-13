@@ -4,12 +4,13 @@ package dnsclients
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients/dnstypes"
-	"github.com/TeaOSLab/EdgeAPI/internal/errors"
+	"testing"
+
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/logs"
 	"github.com/iwind/TeaGo/maps"
-	"testing"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients/dnstypes"
+	"github.com/oy1978/EdgeAPI/internal/errors"
 )
 
 func TestCloudFlareProvider_GetDomains(t *testing.T) {

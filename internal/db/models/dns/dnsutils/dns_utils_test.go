@@ -3,10 +3,11 @@
 package dnsutils
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
+	"testing"
+
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/logs"
-	"testing"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
 )
 
 func TestNodeClusterDAO_CheckClusterDNS(t *testing.T) {

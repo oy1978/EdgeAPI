@@ -4,10 +4,10 @@ package reporters
 
 import (
 	"context"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
-	"github.com/TeaOSLab/EdgeAPI/internal/errors"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
 	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
+	"github.com/oy1978/EdgeAPI/internal/errors"
+	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/shared"
 	"google.golang.org/grpc/peer"
 	"net"
 )
@@ -38,4 +38,3 @@ func validateClient(tx *dbs.Tx, nodeId int64, ctx context.Context) error {
 	}
 	return errors.New("client was not allowed")
 }
-

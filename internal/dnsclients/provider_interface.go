@@ -1,8 +1,8 @@
 package dnsclients
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients/dnstypes"
 	"github.com/iwind/TeaGo/maps"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients/dnstypes"
 )
 
 // ProviderInterface DNS操作接口

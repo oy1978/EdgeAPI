@@ -3,11 +3,12 @@
 package dnsclients_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients"
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients/dnstypes"
+	"testing"
+
 	"github.com/iwind/TeaGo/logs"
 	"github.com/iwind/TeaGo/maps"
-	"testing"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients/dnstypes"
 )
 
 const edgeDNSAPIDomainName = "hello2.com"

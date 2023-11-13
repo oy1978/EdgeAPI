@@ -4,10 +4,11 @@
 package models
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
+	"testing"
+
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/dbs"
-	"testing"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
 )
 
 func TestNodeIPAddressDAO_FireThresholds(t *testing.T) {

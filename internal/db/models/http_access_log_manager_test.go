@@ -4,11 +4,12 @@ package models_test
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
-	"github.com/iwind/TeaGo/dbs"
-	timeutil "github.com/iwind/TeaGo/utils/time"
 	"testing"
 	"time"
+
+	"github.com/iwind/TeaGo/dbs"
+	timeutil "github.com/iwind/TeaGo/utils/time"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
 )
 
 func TestNewHTTPAccessLogManager(t *testing.T) {

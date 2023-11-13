@@ -1,7 +1,7 @@
 package installers
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/db/models"
+	"github.com/oy1978/EdgeAPI/internal/db/models"
 	"testing"
 )
 

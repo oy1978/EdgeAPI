@@ -1,9 +1,10 @@
 package tasks_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/tasks"
-	"github.com/iwind/TeaGo/dbs"
 	"testing"
+
+	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeAPI/internal/tasks"
 )
 
 func TestHealthCheckClusterTask_Loop(t *testing.T) {

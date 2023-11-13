@@ -2,13 +2,14 @@ package acme
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAPI/internal/dnsclients"
+	"testing"
+
 	"github.com/go-acme/lego/v4/registration"
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/iwind/TeaGo/bootstrap"
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/maps"
-	"testing"
+	"github.com/oy1978/EdgeAPI/internal/dnsclients"
 )
 
 func TestRequest_Run_DNS(t *testing.T) {

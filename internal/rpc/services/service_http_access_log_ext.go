@@ -3,7 +3,7 @@
 
 package services
 
-import "github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+import "github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 
 func (this *HTTPAccessLogService) canWriteAccessLogsToDB() bool {
 	return true

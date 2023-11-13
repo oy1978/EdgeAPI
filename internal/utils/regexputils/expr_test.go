@@ -3,9 +3,10 @@
 package regexputils_test
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/utils/regexputils"
-	"github.com/iwind/TeaGo/assert"
 	"testing"
+
+	"github.com/iwind/TeaGo/assert"
+	"github.com/oy1978/EdgeAPI/internal/utils/regexputils"
 )
 
 func TestExpr(t *testing.T) {

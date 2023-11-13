@@ -3,9 +3,9 @@
 package dbutils
 
 import (
-	"github.com/TeaOSLab/EdgeAPI/internal/goman"
 	"github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeAPI/internal/goman"
 	"golang.org/x/sys/unix"
 	"time"
 )

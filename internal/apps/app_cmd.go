@@ -3,11 +3,11 @@ package apps
 import (
 	"errors"
 	"fmt"
-	teaconst "github.com/TeaOSLab/EdgeAPI/internal/const"
 	"github.com/iwind/TeaGo/logs"
 	"github.com/iwind/TeaGo/maps"
 	"github.com/iwind/TeaGo/types"
 	"github.com/iwind/gosock/pkg/gosock"
+	teaconst "github.com/oy1978/EdgeAPI/internal/const"
 	"os"
 	"os/exec"
 	"path/filepath"

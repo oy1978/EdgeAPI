@@ -4,8 +4,8 @@
 package models
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
 	"github.com/iwind/TeaGo/dbs"
+	"github.com/oy1978/EdgeCommon/pkg/nodeconfigs"
 )
 
 func (this *NodeLoginDAO) FindFrequentGrantIds(tx *dbs.Tx, nodeClusterId int64, nsClusterId int64) ([]int64, error) {
