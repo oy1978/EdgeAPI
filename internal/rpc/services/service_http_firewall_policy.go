@@ -3,6 +3,8 @@ package services
 import (
 	"context"
 	"encoding/json"
+	"net"
+
 	"github.com/iwind/TeaGo/lists"
 	"github.com/oy1978/EdgeAPI/internal/db/models"
 	"github.com/oy1978/EdgeAPI/internal/errors"
@@ -10,7 +12,6 @@ import (
 	"github.com/oy1978/EdgeCommon/pkg/iplibrary"
 	"github.com/oy1978/EdgeCommon/pkg/rpc/pb"
 	"github.com/oy1978/EdgeCommon/pkg/serverconfigs/firewallconfigs"
-	"net"
 )
 
 // HTTPFirewallPolicyService HTTP防火墙（WAF）相关服务
@@ -305,7 +306,7 @@ func (this *HTTPFirewallPolicyService) UpdateHTTPFirewallPolicy(ctx context.Cont
 		req.MaxRequestBodySize = 0
 	}
 
-	err = models.SharedHTTPFirewallPolicyDAO.UpdateFirewallPolicy(tx, req.HttpFirewallPolicyId, req.IsOn, req.Name, req.Description, inboundConfigJSON, outboundConfigJSON, req.BlockOptionsJSON, req.CaptchaOptionsJSON, req.Mode, req.UseLocalFirewall, synFloodConfig, logConfig, req.MaxRequestBodySize, req.DenyCountryHTML, req.DenyProvinceHTML)
+	err = models.SharedHTTPFirewallPolicyDAO.UpdateFirewallPolicy(tx, req.HttpFirewallPolicyId, req.IsOn, req.Name, req.Description, inboundConfigJSON, outboundConfigJSON, req.BlockOptionsJSON, req.CaptchaOptionsJSON, req.SilOptionsJSON, req.Mode, req.UseLocalFirewall, synFloodConfig, logConfig, req.MaxRequestBodySize, req.DenyCountryHTML, req.DenyProvinceHTML)
 	if err != nil {
 		return nil, err
 	}

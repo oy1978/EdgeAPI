@@ -157,6 +157,14 @@ func (this *HTTPFirewallPolicyDAO) CreateFirewallPolicy(tx *dbs.Tx, userId int64
 			return 0, err
 		}
 		op.CaptchaOptions = captchaOptionsJSON
+
+		// sil options
+		var silOptions = firewallconfigs.DefaultHTTPFirewallCaptchaAction()
+		silOptionsJSON, err := json.Marshal(silOptions)
+		if err != nil {
+			return 0, err
+		}
+		op.SilOptions = silOptionsJSON
 	}
 
 	err := this.Save(tx, op)
@@ -315,6 +323,7 @@ func (this *HTTPFirewallPolicyDAO) UpdateFirewallPolicy(tx *dbs.Tx,
 	outboundJSON []byte,
 	blockOptionsJSON []byte,
 	captchaOptionsJSON []byte,
+	silOptionsJSON []byte,
 	mode firewallconfigs.FirewallMode,
 	useLocalFirewall bool,
 	synFloodConfig *firewallconfigs.SYNFloodConfig,
@@ -346,6 +355,9 @@ func (this *HTTPFirewallPolicyDAO) UpdateFirewallPolicy(tx *dbs.Tx,
 	}
 	if IsNotNull(captchaOptionsJSON) {
 		op.CaptchaOptions = captchaOptionsJSON
+	}
+	if IsNotNull(silOptionsJSON) {
+		op.SilOptions = silOptionsJSON
 	}
 
 	if synFloodConfig != nil {

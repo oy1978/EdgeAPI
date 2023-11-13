@@ -70,6 +70,7 @@ type HTTPFirewallPolicyOperator struct {
 	Outbound           any // 出站规则
 	BlockOptions       any // BLOCK选项
 	CaptchaOptions     any // 验证码选项
+	SilOptions         any // 验证码选项
 	Mode               any // 模式
 	UseLocalFirewall   any // 是否自动使用本地防火墙
 	SynFlood           any // SynFlood防御设置
